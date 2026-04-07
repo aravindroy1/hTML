@@ -1,13 +1,13 @@
 name: CI Pipeline
 
 on:
-pull_request:
-branches:
-- main
+  pull_request:
+    branches:
+    - main
 
 jobs:
-build:
-runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
 
 steps:
@@ -23,4 +23,4 @@ steps:
     run: npm install
 
   - name: Run Tests
-    run: npm test 
+    run: npm test
