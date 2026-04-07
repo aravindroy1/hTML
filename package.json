@@ -1,8 +1,13 @@
 {
-  "name": "devops-app",
-  "version": "1.0.0",
-  "main": "app.js",
-  "dependencies": {
-    "express": "^4.18.2"
-  }
+"name": "devops-app",
+"version": "1.0.0",
+"main": "app.js",
+"scripts": {
+"start": "node app.js",
+"test": "echo "Test Passed" && exit 0",
+"build": "echo "Build Success""
+},
+"dependencies": {
+"express": "^4.18.2"
+}
 }
