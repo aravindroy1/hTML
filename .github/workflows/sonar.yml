@@ -16,7 +16,7 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@master
         with:
           args: >
-            -Dsonar.organization=YOUR_ORG
-            -Dsonar.projectKey=YOUR_PROJECT_KEY
+            -Dsonar.organization=aravindroy1
+            -Dsonar.projectKey=aravindroy1_hTML
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
